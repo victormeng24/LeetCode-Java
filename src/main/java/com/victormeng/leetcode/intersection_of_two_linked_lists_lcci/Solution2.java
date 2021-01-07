@@ -1,7 +1,7 @@
 /**
- * Leetcode - unique_number_of_occurences
+ * Leetcode - intersection_of_two_linked_lists_lcci
  */
-package com.victormeng.leetcode.unique_number_of_occurences;
+package com.victormeng.leetcode.intersection_of_two_linked_lists_lcci;
 import java.util.*;
 import com.ciaoshen.leetcode.util.*;
 
@@ -16,8 +16,8 @@ import com.ciaoshen.leetcode.util.*;
  */
 class Solution2 implements Solution {
 
-    public boolean uniqueOccurrences(int[] arr) {
-        return true;
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        return null;
     }
 
 }

@@ -1,12 +1,13 @@
 /**
- * Leetcode - intersection_of_two_arrars
+ * Leetcode - intersection_of_two_linked_lists_lcci
  */
-package com.victormeng.leetcode.intersection_of_two_arrars;
+package com.victormeng.leetcode.intersection_of_two_linked_lists_lcci;
 
 import java.util.*;
+import com.ciaoshen.leetcode.util.*;
 
-import com.victormeng.leetcode.intersection_of_two_arrays.Solution;
-import com.victormeng.leetcode.intersection_of_two_arrays.Solution1;
+import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.*;
 import org.junit.BeforeClass;
 import org.junit.AfterClass;
 import org.junit.Before;

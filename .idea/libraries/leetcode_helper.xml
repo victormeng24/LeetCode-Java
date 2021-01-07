@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="leetcode-helper">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/leetcode-helper.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

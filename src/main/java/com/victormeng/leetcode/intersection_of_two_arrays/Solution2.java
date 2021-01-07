@@ -1,9 +1,7 @@
 /**
- * Leetcode - unique_number_of_occurences
+ * Leetcode - intersection_of_two_arrars
  */
-package com.victormeng.leetcode.unique_number_of_occurences;
-import java.util.*;
-import com.ciaoshen.leetcode.util.*;
+package com.victormeng.leetcode.intersection_of_two_arrays;
 
 /** 
  * log instance is defined in Solution interface
@@ -16,8 +14,8 @@ import com.ciaoshen.leetcode.util.*;
  */
 class Solution2 implements Solution {
 
-    public boolean uniqueOccurrences(int[] arr) {
-        return true;
+    public int[] intersection(int[] nums1, int[] nums2) {
+        return null;
     }
 
 }

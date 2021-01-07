@@ -16,6 +16,8 @@ import com.ciaoshen.leetcode.util.*;
  */
 class Solution2 implements Solution {
 
-    public List<String> commonChars(String[] A) {}
+    public List<String> commonChars(String[] A) {
+        return null;
+    }
 
 }

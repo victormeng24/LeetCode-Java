@@ -1,7 +1,7 @@
 /**
- * Leetcode - intersection_of_two_arrars
+ * Leetcode - fibonacci_number
  */
-package com.victormeng.leetcode.intersection_of_two_arrars;
+package com.victormeng.leetcode.fibonacci_number;
 import java.util.*;
 import com.ciaoshen.leetcode.util.*;
 
@@ -16,6 +16,8 @@ import com.ciaoshen.leetcode.util.*;
  */
 class Solution2 implements Solution {
 
-    public int[] intersection(int[] nums1, int[] nums2) {}
+    public int fib(int n) {
+        return -1;
+    }
 
 }

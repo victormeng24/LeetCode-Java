@@ -16,6 +16,8 @@ import com.ciaoshen.leetcode.util.*;
  */
 class Solution2 implements Solution {
 
-    public boolean isValid(String s) {}
+    public boolean isValid(String s) {
+        return true;
+    }
 
 }

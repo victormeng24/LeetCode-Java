@@ -16,6 +16,8 @@ import com.ciaoshen.leetcode.util.*;
  */
 class Solution2 implements Solution {
 
-    public int maxSubArray(int[] nums) {}
+    public int maxSubArray(int[] nums) {
+        return -1;
+    }
 
 }

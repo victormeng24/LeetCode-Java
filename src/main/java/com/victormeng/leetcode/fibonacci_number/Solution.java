@@ -1,7 +1,7 @@
 /**
- * Leetcode - intersection_of_two_arrars
+ * Leetcode - fibonacci_number
  */
-package com.victormeng.leetcode.intersection_of_two_arrars;
+package com.victormeng.leetcode.fibonacci_number;
 import java.util.*;
 import com.ciaoshen.leetcode.util.*;
 
@@ -12,5 +12,7 @@ interface Solution {
 
     // use this Object to print the log (call from slf4j facade)
     static Logger log = LoggerFactory.getLogger(Solution.class);
+
+    public int fib(int n);
     
 }

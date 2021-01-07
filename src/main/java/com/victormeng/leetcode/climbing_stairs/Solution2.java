@@ -16,6 +16,8 @@ import com.ciaoshen.leetcode.util.*;
  */
 class Solution2 implements Solution {
 
-    public int climbStairs(int n) {}
+    public int climbStairs(int n) {
+        return 0;
+    }
 
 }

@@ -1,9 +1,8 @@
 /**
  * Leetcode - intersection_of_two_arrars
  */
-package com.victormeng.leetcode.intersection_of_two_arrars;
+package com.victormeng.leetcode.intersection_of_two_arrays;
 import java.util.*;
-import com.ciaoshen.leetcode.util.*;
 
 /** 
  * log instance is defined in Solution interface

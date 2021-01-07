@@ -1,12 +1,13 @@
 /**
- * Leetcode - intersection_of_two_arrars
+ * Leetcode - fibonacci_number
  */
-package com.victormeng.leetcode.intersection_of_two_arrars;
+package com.victormeng.leetcode.fibonacci_number;
 
 import java.util.*;
+import com.ciaoshen.leetcode.util.*;
 
-import com.victormeng.leetcode.intersection_of_two_arrays.Solution;
-import com.victormeng.leetcode.intersection_of_two_arrays.Solution1;
+import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.*;
 import org.junit.BeforeClass;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -45,6 +46,9 @@ public class Tester {
     @Parameters
     public static Collection<Object[]> testcases() {
         return Arrays.asList(new Object[][]{
+                {3, 2},
+                {4, 3},
+                {5, 5}
             // {},     // test case 1 (init parameters below: {para1, para2, expected})
             // {},     // test case 2 (init parameters below: {para1, para2, expected})
             // {}      // test case 3 (init parameters below: {para1, para2, expected})
@@ -57,16 +61,14 @@ public class Tester {
      * Parameters for each test (initialized in testcases() method) 
      * You can change the type of parameters
      */
-    // private Object para1;                       // parameter 1
-    // private Object para2;                       // parameter 2
-    // private Object expected;                    // parameter 3 (expected answer)
+     private int para1;                       // parameter 1
+     private int expected;                    // parameter 3 (expected answer)
 
     /** This constructor must be provided to run parameterized test. */
-    public Tester(Object para1, Object para2, Object expected) {
+    public Tester(int para1, int expected) {
            // initialize test parameters
-    //     this.para1 = para1; 
-    //     this.para2 = para2;
-    //     this.expected = expected;
+         this.para1 = para1;
+         this.expected = expected;
     }
 
     /** Execute before each test method in this class is executed. */
@@ -77,13 +79,13 @@ public class Tester {
     @Test
     public void test() {
         //
-        // Object actual = solution.your-method(para1, para2);
-        //
-        // assertThat(actual, is(equalTo(expected)));
-        //
-        // if (LOGGER.isDebugEnabled()) {
-        //     LOGGER.debug("your-method() pass unit test!");
-        // }
+         int actual = solution.fib(para1);
+
+         assertThat(actual, is(equalTo(expected)));
+
+         if (LOGGER.isDebugEnabled()) {
+             LOGGER.debug("your-method() pass unit test!");
+         }
     }
 
     /** Execute after each test method in this class is executed. */
