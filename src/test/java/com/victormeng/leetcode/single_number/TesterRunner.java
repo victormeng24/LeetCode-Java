@@ -1,7 +1,7 @@
 /**
- * Leetcode - intersection_of_two_arrars
+ * Leetcode - single_number
  */
-package com.victormeng.leetcode.intersection_of_two_arrars;
+package com.victormeng.leetcode.single_number;
 
 // basic util
 import java.util.*;

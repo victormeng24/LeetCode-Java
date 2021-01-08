@@ -1,12 +1,10 @@
 /**
  * Leetcode - intersection_of_two_arrars
  */
-package com.victormeng.leetcode.intersection_of_two_arrars;
+package com.victormeng.leetcode.intersection_of_two_arrays;
 
 import java.util.*;
 
-import com.victormeng.leetcode.intersection_of_two_arrays.Solution;
-import com.victormeng.leetcode.intersection_of_two_arrays.Solution1;
 import org.junit.BeforeClass;
 import org.junit.AfterClass;
 import org.junit.Before;
