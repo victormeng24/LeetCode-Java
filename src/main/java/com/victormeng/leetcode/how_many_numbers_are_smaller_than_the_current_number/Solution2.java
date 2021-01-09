@@ -1,7 +1,7 @@
 /**
- * Leetcode - maximum_depth_of_binary_tree
+ * Leetcode - how_many_numbers_are_smaller_than_the_current_number
  */
-package com.victormeng.leetcode.maximum_depth_of_binary_tree;
+package com.victormeng.leetcode.how_many_numbers_are_smaller_than_the_current_number;
 import java.util.*;
 import com.ciaoshen.leetcode.util.*;
 
@@ -16,8 +16,8 @@ import com.ciaoshen.leetcode.util.*;
  */
 class Solution2 implements Solution {
 
-    public int maxDepth(TreeNode root) {
-        return 0;
+    public int[] smallerNumbersThanCurrent(int[] nums) {
+        return null;
     }
 
 }

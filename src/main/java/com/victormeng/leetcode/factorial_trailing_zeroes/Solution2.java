@@ -1,7 +1,7 @@
 /**
- * Leetcode - maximum_depth_of_binary_tree
+ * Leetcode - factorial_trailing_zeroes
  */
-package com.victormeng.leetcode.maximum_depth_of_binary_tree;
+package com.victormeng.leetcode.factorial_trailing_zeroes;
 import java.util.*;
 import com.ciaoshen.leetcode.util.*;
 
@@ -16,7 +16,7 @@ import com.ciaoshen.leetcode.util.*;
  */
 class Solution2 implements Solution {
 
-    public int maxDepth(TreeNode root) {
+    public int trailingZeroes(int n) {
         return 0;
     }
 

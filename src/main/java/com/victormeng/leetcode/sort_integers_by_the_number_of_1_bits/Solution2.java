@@ -1,7 +1,7 @@
 /**
- * Leetcode - maximum_depth_of_binary_tree
+ * Leetcode - sort_integers_by_the_number_of_1_bits
  */
-package com.victormeng.leetcode.maximum_depth_of_binary_tree;
+package com.victormeng.leetcode.sort_integers_by_the_number_of_1_bits;
 import java.util.*;
 import com.ciaoshen.leetcode.util.*;
 
@@ -16,8 +16,8 @@ import com.ciaoshen.leetcode.util.*;
  */
 class Solution2 implements Solution {
 
-    public int maxDepth(TreeNode root) {
-        return 0;
+    public int[] sortByBits(int[] arr) {
+        return null;
     }
 
 }
