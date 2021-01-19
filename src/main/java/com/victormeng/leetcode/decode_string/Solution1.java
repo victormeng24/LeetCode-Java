@@ -19,6 +19,7 @@ import com.ciaoshen.leetcode.util.*;
 class Solution1 implements Solution {
 
     public String decodeString(String s) {
+
         StringBuilder sb = new StringBuilder();
         int i = 0;
         int num = 0;
