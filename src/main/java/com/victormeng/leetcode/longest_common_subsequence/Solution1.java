@@ -19,6 +19,7 @@ import com.ciaoshen.leetcode.util.*;
 class Solution1 implements Solution {
 
     public int longestCommonSubsequence(String text1, String text2) {
+
         if (text1.length() == 0 || text2.length() == 0) {
             return 0;
         }
