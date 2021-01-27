@@ -1,7 +1,7 @@
 /**
- * Leetcode - simplify_path
+ * Leetcode - count_binary_substrings
  */
-package com.victormeng.leetcode.simplify_path;
+package com.victormeng.leetcode.count_binary_substrings;
 import java.util.*;
 import com.ciaoshen.leetcode.util.*;
 
@@ -14,10 +14,10 @@ import com.ciaoshen.leetcode.util.*;
  *     }
  * =============================================
  */
-class Solution1 implements Solution {
+class Solution2 implements Solution {
 
-    public String simplifyPath(String path) {
-        return "";
+    public int countBinarySubstrings(String s) {
+        return 0;
     }
 
 }

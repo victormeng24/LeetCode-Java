@@ -1,7 +1,7 @@
 /**
- * Leetcode - simplify_path
+ * Leetcode - predict_the_winner
  */
-package com.victormeng.leetcode.simplify_path;
+package com.victormeng.leetcode.predict_the_winner;
 import java.util.*;
 import com.ciaoshen.leetcode.util.*;
 
@@ -14,10 +14,10 @@ import com.ciaoshen.leetcode.util.*;
  *     }
  * =============================================
  */
-class Solution1 implements Solution {
+class Solution2 implements Solution {
 
-    public String simplifyPath(String path) {
-        return "";
+    public boolean PredictTheWinner(int[] nums) {
+        return true;
     }
 
 }

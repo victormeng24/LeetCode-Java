@@ -16,6 +16,8 @@ import com.ciaoshen.leetcode.util.*;
  */
 class Solution1 implements Solution {
 
-    public TreeNode sortedListToBST(ListNode head) {}
+    public TreeNode sortedListToBST(ListNode head) {
+        return null;
+    }
 
 }

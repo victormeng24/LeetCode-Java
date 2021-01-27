@@ -1,7 +1,7 @@
 /**
- * Leetcode - simplify_path
+ * Leetcode - shu_de_zi_jie_gou_lcof
  */
-package com.victormeng.leetcode.simplify_path;
+package com.victormeng.leetcode.shu_de_zi_jie_gou_lcof;
 import java.util.*;
 import com.ciaoshen.leetcode.util.*;
 
@@ -14,10 +14,10 @@ import com.ciaoshen.leetcode.util.*;
  *     }
  * =============================================
  */
-class Solution1 implements Solution {
+class Solution2 implements Solution {
 
-    public String simplifyPath(String path) {
-        return "";
+    public boolean isSubStructure(TreeNode A, TreeNode B) {
+        return false;
     }
 
 }
