@@ -1,7 +1,7 @@
 /**
- * Leetcode - max_area_of_island
+ * Leetcode - string_to_integer_atoi
  */
-package com.victormeng.leetcode.max_area_of_island;
+package com.victormeng.leetcode.string_to_integer_atoi;
 import java.util.*;
 import com.ciaoshen.leetcode.util.*;
 
@@ -14,9 +14,9 @@ import com.ciaoshen.leetcode.util.*;
  *     }
  * =============================================
  */
-class Solution1 implements Solution {
+class Solution2 implements Solution {
 
-    public int maxAreaOfIsland(int[][] grid) {
+    public int myAtoi(String s) {
         return 0;
     }
 

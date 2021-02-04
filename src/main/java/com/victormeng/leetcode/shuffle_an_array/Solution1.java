@@ -1,7 +1,7 @@
 /**
- * Leetcode - max_area_of_island
+ * Leetcode - shuffle_an_array
  */
-package com.victormeng.leetcode.max_area_of_island;
+package com.victormeng.leetcode.shuffle_an_array;
 import java.util.*;
 import com.ciaoshen.leetcode.util.*;
 
@@ -16,8 +16,5 @@ import com.ciaoshen.leetcode.util.*;
  */
 class Solution1 implements Solution {
 
-    public int maxAreaOfIsland(int[][] grid) {
-        return 0;
-    }
 
 }

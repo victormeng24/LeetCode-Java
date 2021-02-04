@@ -1,7 +1,7 @@
 /**
- * Leetcode - max_area_of_island
+ * Leetcode - coin_change_ii
  */
-package com.victormeng.leetcode.max_area_of_island;
+package com.victormeng.leetcode.coin_change_ii;
 import java.util.*;
 import com.ciaoshen.leetcode.util.*;
 
@@ -16,8 +16,16 @@ import com.ciaoshen.leetcode.util.*;
  */
 class Solution1 implements Solution {
 
-    public int maxAreaOfIsland(int[][] grid) {
-        return 0;
+    public int change(int amount, int[] coins) {
+        int[] dp = new int[amount + 1];
+        dp[0] = 1;
+
+        for (int coin : coins) {
+            for (int x = coin; x < amount + 1; ++x) {
+                dp[x] += dp[x - coin];
+            }
+        }
+        return dp[amount];
     }
 
 }

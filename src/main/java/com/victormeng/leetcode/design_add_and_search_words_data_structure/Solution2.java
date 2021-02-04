@@ -1,7 +1,7 @@
 /**
- * Leetcode - max_area_of_island
+ * Leetcode - design_add_and_search_words_data_structure
  */
-package com.victormeng.leetcode.max_area_of_island;
+package com.victormeng.leetcode.design_add_and_search_words_data_structure;
 import java.util.*;
 import com.ciaoshen.leetcode.util.*;
 
@@ -14,10 +14,8 @@ import com.ciaoshen.leetcode.util.*;
  *     }
  * =============================================
  */
-class Solution1 implements Solution {
+class Solution2 implements Solution {
 
-    public int maxAreaOfIsland(int[][] grid) {
-        return 0;
-    }
+    
 
 }
